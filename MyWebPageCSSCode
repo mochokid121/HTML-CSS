@@ -1,0 +1,28 @@
+body {
+    background-image: url(b.jpg);
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+p {
+    font-family: 'Courier New';
+    font-size: 44px;
+    color: gray;
+}
+li {
+    font-family: 'Courier New';
+    font-size: 20px;
+}
+button {
+    font-family: 'Courier New';
+}
+h1 {
+    font-size: 18px;
+}
+td {
+    height: 50px;
+    border: 1px solid black;   
+}
+a{
+    color: #cc0000;
+    text-decoration: none;
+}
