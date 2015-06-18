@@ -1,5 +1,6 @@
 // JavaScript source code
-// Drop down box for webpage
+// File: app.js
+// Displays time button on top of webpage
 
 var main = function () {
     /* Push the body and the nav over by 285px over */
