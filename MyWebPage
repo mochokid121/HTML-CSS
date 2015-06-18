@@ -1,0 +1,83 @@
+<!--PATRICK F. LOWITZ 
+CREATED: MAY, 18, 2015
+MY PROFESSIONAL WEBPAGE-->
+
+<!--Save this file and the CSS file on PC.  Then double click this HTML file to open it in your browser-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link type="text/css" rel="stylesheet" href="MyWebPageCSSCode.css"/> <!--LINKS THIS HTML FILE WITH CSS TO WORK TOGETHER-->
+        <meta charset="utf-8"/>
+        <title>Greetings!</title> <!--Name of title on webpage tab-->
+        <!-- Javascript coad that loads alert popup box-->
+        <script  type="text/javascript">alert("You are about to enter my webpage.");</script>
+        <script src="app.js"></script>
+        <style type="text/css">
+            body { 
+            background-image: url(b.jpg);
+            background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+<body>
+    Hello, you visited my page at: <!--   <?php echo date ('1, F, jS, Y');?>    <-----'PHP function that shows the date', don't work here.-->
+    <!--BELOW: JavaScript code that displays date and time button on webpage-->
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> <!--works-->
+        Click to display Date and Time.
+    </button>
+    <p id="demo"></p>
+
+    <h2>Welcome to my webpage!</h2> <!--Introduction to my webpage-->
+        <table>
+            <!--Information table-->
+            <tr>
+                <td>
+                    <h2><span style=" color: darkslategray">About Me:</span></h2>
+                    <div class="About me">
+                        <ol>
+                            <li>IT Professional</li>
+                            <li>Penn State graduate</li>
+                            <li>Microsoft Office Specialist</li>
+                        </ol>
+                    </div>
+
+                    <div class="My Links and Contact">
+                        <!--Downloadable Resume in same folder as HTML, CSS, and JavaScript files-->
+                        <h1><u>Click to download/open:</u></h1>
+                        <h1><a href="Downloadable Patrick Lowitz Resume.docx" download target="_blank"><i>Resume</i></a></h1>
+                        <!--'target="_blank"' opens the hyperlink in a new tab/browser-->
+                        <h1><a href="http://www.codecademy.com/mochokid121" target="_blank"><i>Coding</i></a></h1>
+                        <!--Hyperlink to LinkedIn account-->
+                        <h1><a href="https://www.linkedin.com/in/patricklowitz" target="_blank"><i>LinkedIn</i></a></h1>
+                        <!--Opens Microsoft Outlook with my email in the subject line-->
+                        <h1><a href="mailto:Lowitzp11@gmail.com?"><i>E-mail me</i></a></h1>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    <div class="Interests/ Schools">
+        <ul>
+            <li style="color:darkslategray; font-size: 20px; font-family: 'Courier New'">
+                <b>Interests:</b>
+                <ol>
+                    <li style="color:black; font-size: 14px"> Soccer </li>
+                    <li style="color:black; font-size: 14px"> Skiing </li>
+                    <li style="color:black; font-size: 14px"> Coding </li>
+                    <li style="color:black; font-size: 14px"> Rock Climbing </li>
+                </ol>
+            <li style="color: darkslategray; font-size: 20px; font-family: 'Courier New'">
+                <b>Schools:</b>
+                <ol>
+                    <li style="color:black; font-size: 14px"> Northeast Catholic High School for boys, Philadelphia, Pa. </li>
+                    <li style="color:black; font-size: 14px"> Father Judge High School for boys, Philadelphia, Pa - Class of 2011 </li>
+                    <li style="color:black; font-size: 14px"> Pennsylvania State University, Brandywine campus, Media, Pa - Class of 2016 </li>
+                </ol>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
